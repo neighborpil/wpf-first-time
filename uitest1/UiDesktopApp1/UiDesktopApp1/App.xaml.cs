@@ -4,6 +4,7 @@ using Microsoft.Extensions.Hosting;
 using System.IO;
 using System.Reflection;
 using System.Windows.Threading;
+using UiDesktopApp1.interfaces;
 using UiDesktopApp1.Services;
 using UiDesktopApp1.ViewModels.Pages;
 using UiDesktopApp1.ViewModels.Windows;
@@ -45,6 +46,8 @@ namespace UiDesktopApp1
                 // Main window with navigation
                 services.AddSingleton<INavigationWindow, MainWindow>();
                 services.AddSingleton<MainWindowViewModel>();
+
+                services.AddSingleton<IDateTime, DateTimeService>();
 
                 services.AddSingleton<DashboardPage>();
                 services.AddSingleton<DashboardViewModel>();

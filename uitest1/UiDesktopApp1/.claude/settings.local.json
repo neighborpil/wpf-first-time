@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(xargs cat *)"
+      "Bash(xargs cat *)",
+      "PowerShell(& \"C:/Program Files/PostgreSQL/18/bin/pg_restore.exe\" --file=\"C:/Users/ENZO-04/Downloads/wpf_proj_db.sql\" --no-password \"C:/Users/ENZO-04/Downloads/wpf_proj_db.backup\"; Write-Host \"Exit code: $LASTEXITCODE\")",
+      "PowerShell($f = Get-Item \"C:/Users/ENZO-04/Downloads/wpf_proj_db.sql\"; Write-Host \"크기: $\\([math]::Round\\($f.Length/1KB, 1\\)\\) KB\"; Get-Content \"C:/Users/ENZO-04/Downloads/wpf_proj_db.sql\" -Head 20)"
     ]
   }
 }

@@ -12,11 +12,12 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\Pilhong Park\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Pilhong Park\\.nuget\\packages"
+      "C:\\Users\\ENZO-04\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\ENZO-04\\.nuget\\packages"
     ],
     "configProperties": {
       "MVVMTOOLKIT_ENABLE_INOTIFYPROPERTYCHANGING_SUPPORT": true,
+      "System.Reflection.NullabilityInfoContext.IsSupported": true,
       "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": false,
       "CSWINRT_USE_WINDOWS_UI_XAML_PROJECTIONS": false,
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true
